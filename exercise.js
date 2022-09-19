@@ -11,8 +11,8 @@
 /** DO   CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
-
+    let f = c * 9/5 + 32; // Formula to convert to fahrenheit.
+    return f; // Returns the resoult of the convertion to fahrenheit.
     /* Only make changes below this comment */
 }
 
