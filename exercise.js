@@ -8,7 +8,7 @@
 
 
 
-/** DO   CHANGE THE FUNCTION NAME **/
+/** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
     
