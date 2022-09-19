@@ -6,19 +6,15 @@
     Good luck!
 */
 
-
-
 /** DO   CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
-    /* Only make changes below this comment */
-    
+  /* Only make changes below this comment */
+  let farh = (c * 9) / 5 + 32;
+  return farh;
+  /* Only make changes below this comment */
+};
 
-    /* Only make changes below this comment */
-}
-
-
-
-
+console.log(cToF(100));
 
 /** DO NOT CHANGE THE LINE BELOW **/
 module.exports.cToF = cToF;
