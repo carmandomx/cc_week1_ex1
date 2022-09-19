@@ -13,10 +13,10 @@ const cToF = (c) => {
     /* Only make changes below this comment */
 
     /* We create a variable to storage the result of the formula for convert celcius to fahrenheit */
-    let f = c * 9 / 5 + 32
+    let f = c * 9 / 5 + 32;
 
     /* Then we return de result storage on F to show outside this fuction*/
-    return f
+    return f;
 
     /* Only make changes below this comment */
 }
