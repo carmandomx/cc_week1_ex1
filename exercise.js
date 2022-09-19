@@ -6,19 +6,13 @@
     Good luck!
 */
 
-
-
 /** DO   CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
+    return (c * 9) / 5 + 32; // returning as fahrenheit
 
     /* Only make changes below this comment */
-}
-
-
-
-
+};
 
 /** DO NOT CHANGE THE LINE BELOW **/
 module.exports.cToF = cToF;
