@@ -6,12 +6,17 @@
     Good luck!
 */
 
-
+function celsiusToFahrenheit(celsius) {
+    var fahrenheit = celsius * 9 / 5 + 32;
+    return fahrenheit;
+}
+console.log(celsiusToFahrenheit(4))
+//convert 4 celsius to fahrenheit
 
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
+
 
     /* Only make changes below this comment */
 }
