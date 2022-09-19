@@ -11,7 +11,8 @@
 /** DO   CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
+    var f = c*(9/5) + 32; //declare the variable f and give it a value based on the celsius input and the formula
+    return f; //return the farenheit value
 
     /* Only make changes below this comment */
 }
