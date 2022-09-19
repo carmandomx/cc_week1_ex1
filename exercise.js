@@ -11,7 +11,11 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
+
+    // Declaring the answer variable  
+    let answer = c * 9/5 + 32; //Doing the conversion math 
+    // Returning the answer value
+    return answer
 
     /* Only make changes below this comment */
 }
