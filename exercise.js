@@ -11,7 +11,8 @@
 /** DO   CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
+    farenheit = c * (9/5) + 32;
+    return farenheit;
 
     /* Only make changes below this comment */
 }
