@@ -11,13 +11,10 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
-
+    let sum = c *9/5 +32;
+    return sum;
     /* Only make changes below this comment */
 }
-
-
-
 
 
 /** DO NOT CHANGE THE LINE BELOW **/
