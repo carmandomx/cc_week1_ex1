@@ -12,7 +12,11 @@
 const cToF = (c) => {
     /* Only make changes below this comment */
     
-
+    //Assign the formula to a constant variable reading the input value
+    const fahrenheit = c * 9/5 + 32;
+    //Return the input converted to Farhenheit
+    return fahrenheit;
+    
     /* Only make changes below this comment */
 }
 
