@@ -11,7 +11,12 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
+    // create a variable where the result of the conversion formula is stored
+    let fahrenheit = c*9/5+32;
+    //show the result on console
+    console.log(fahrenheit);
+    // return the conversion
+    return fahrenheit;
 
     /* Only make changes below this comment */
 }
