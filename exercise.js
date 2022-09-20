@@ -12,7 +12,7 @@ const cToF = (c) => {
 
   //conditional for only number values and for a "c" defined.
   if (typeof c === "number" && c !== undefined) {
-    //We define a variable called 'fahrenheit' and assign the operation.
+    //We define a variable called 'fahrenheit' and assign the operation for convert Celcius to fahrenheit degrees.
     let fahrenheit = (c * 9) / 5 + 32;
     //return the value for 'fahrenheit'.
     return fahrenheit;
