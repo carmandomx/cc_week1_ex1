@@ -11,7 +11,8 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
+    //The function returns the temperature in °f units
+    return (c*(9/5)+32);
 
     /* Only make changes below this comment */
 }
