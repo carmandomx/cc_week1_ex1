@@ -7,14 +7,20 @@
 */
 
 
-
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
+    let f = c * (9/5) + 32;
 
+    //c makes a reference to celcius degrees and it is the variable that my function receives
+    //f store the result of convert celcius to fahrenheit degrees
+
+    return f;
+    //At the final we print the solution
     /* Only make changes below this comment */
 }
+
+
 
 
 
