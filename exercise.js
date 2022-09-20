@@ -11,7 +11,14 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
+
+    // I needed to declare a variable to store the values of the conversion given the number(C°)
+
+    let CelToFar = c * (9 / 5) + 32;
+
+    // Then, I needed to return the storaged value in the varile declared above
+
+    return CelToFar
 
     /* Only make changes below this comment */
 }
