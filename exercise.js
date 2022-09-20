@@ -11,11 +11,11 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
-
+    let f= c *9/5 + 32; //I created a new variable that will be the temperature un f (farenheit) and applied the formula
+    console.log(f); // I console logged the solution, I could also have used the return function
     /* Only make changes below this comment */
 }
-
+cToF(10);
 
 
 
