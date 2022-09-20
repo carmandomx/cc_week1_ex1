@@ -12,9 +12,21 @@
 const cToF = (c) => {
     /* Only make changes below this comment */
     
+    return (c * 9/5) + 32;
 
     /* Only make changes below this comment */
 }
+
+
+function palindrome(str) {
+    
+    var re = /[\W_]/g;
+    
+    var lowRegStr = str.toLowerCase().replace(re, '');    
+    var reverseStr = lowRegStr.split('').reverse().join(''); 
+    
+    return reverseStr === lowRegStr; 
+  }
 
 
 
