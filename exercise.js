@@ -11,8 +11,8 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
-
+    let CelToFar = c * (9 / 5) + 32;
+    return CelToFar
     /* Only make changes below this comment */
 }
 
