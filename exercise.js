@@ -11,7 +11,9 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
+    let res =  (c * 9/5) + 32;
+    return res;
+   
 
     /* Only make changes below this comment */
 }
