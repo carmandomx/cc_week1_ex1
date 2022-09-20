@@ -11,7 +11,10 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
+    return c * (9/5) + 32;  /*for this first excercise we had to
+    convert celsius to farenheit, and we did it by
+    multiplying our constant by 9/5 and then we added 32 to 
+    have the correct value every time*/ 
 
     /* Only make changes below this comment */
 }
