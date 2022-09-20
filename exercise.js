@@ -9,12 +9,18 @@
 /** DO   CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
   /* Only make changes below this comment */
+
+  //conditional for only number values and for a "c" defined.
   if (typeof c === "number" && c !== undefined) {
-    let farh = (c * 9) / 5 + 32;
-    return farh;
+    //We define a variable called 'fahrenheit' and assign the operation.
+    let fahrenheit = (c * 9) / 5 + 32;
+    //return the value for 'fahrenheit'.
+    return fahrenheit;
   } else {
+    //otherwise we send a warning for value of "c"
     return "Please only number for 'c'";
   }
+
   /* Only make changes below this comment */
 };
 
