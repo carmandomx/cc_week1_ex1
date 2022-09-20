@@ -11,8 +11,9 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    
-
+    var cTemp = c;  /* using a temp var equalizing it to the one used in the function */
+    var F = (cTemp)*(9/5) + 32; /* plugging the tempvar into the equation to go from celsius to farenheit*/
+        console.log(F);    /* printing the result */
     /* Only make changes below this comment */
 }
 
