@@ -14,8 +14,11 @@ const cToF = (c) => {
     
 
     /* Only make changes below this comment */
-}
 
+    var temperature = c;
+    var c2f = temperature * 9/5 + 32;
+    return c2f;
+}
 
 
 
