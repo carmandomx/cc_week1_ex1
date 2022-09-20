@@ -11,8 +11,12 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    let sum = c *9/5 +32;
-    return sum;
+
+    /*Function to convert Celsius to Fahrenheit*/
+    
+    let fahrenheit = c *9/5 +32;   
+    return fahrenheit;
+
     /* Only make changes below this comment */
 }
 
