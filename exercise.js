@@ -14,7 +14,6 @@ const cToF = (c) => {
     let convertion = 0;
     convertion = c * (9/5) + 32;    
     return convertion;
-
     /* Only make changes below this comment */
 }
 
