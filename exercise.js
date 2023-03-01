@@ -11,7 +11,7 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    return c*(9/5)+32
+    return c*9/5+32
 
     /* Only make changes below this comment */
 }
