@@ -11,9 +11,14 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
+
+    /* We assign the formula from centigrade to fahrenheit to the variable 'conversion' */
     let convertion = 0;
     convertion = c * (9/5) + 32;    
+
+    /* Return the final value */
     return convertion;
+
     /* Only make changes below this comment */
 }
 
