@@ -11,8 +11,8 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const cToF = (c) => {
     /* Only make changes below this comment */
-    farenheit = (c*9/5)+32;
-    return farenheit;
+    let farenheit = (c*9/5)+32;/*variable declaration and asignation*/
+    return farenheit;//Returning value
     /* Only make changes below this comment */
 }
 
